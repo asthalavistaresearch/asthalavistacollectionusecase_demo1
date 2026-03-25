@@ -2,7 +2,7 @@
 
 A lightweight AI intelligence feed and content engine built using the Astha La Vista API.
 
-👉 Live Demo: https://asthalavistaresearch.github.io/asthalavistacollectionusecase_demo1/
+👉 Live Demo: [https://asthalavistaresearch.github.io/asthalavistacollectionusecase_demo1/](https://asthalavistaresearch.github.io/asthalavistacollectionusecase_demo1/)
 
 ---
 
