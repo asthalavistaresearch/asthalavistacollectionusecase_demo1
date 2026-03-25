@@ -5,6 +5,7 @@ const fs = require("fs");
 // -----------------------------
 const API_KEY = process.env.ASTHA_API_KEY;
 const COLLECTION = process.env.ENCODED_COLLECTION_TOKEN;
+const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 
 console.log("=== ENV DEBUG ===");
 console.log("API_KEY exists:", !!API_KEY);
