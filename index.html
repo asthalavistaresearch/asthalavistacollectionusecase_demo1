@@ -4,22 +4,36 @@
   <meta charset="UTF-8">
   <title>AI Intelligence Feed</title>
 </head>
-<body style="font-family: Arial; padding: 20px;">
+<body style="font-family: Arial; padding: 20px; max-width: 900px; margin: auto;">
 
   <h1>AI Intelligence Feed</h1>
 
-  <label>Select Window:</label>
-  <select id="cutoff" onchange="loadData()">
-    <option value="1">1 Day</option>
-    <option value="3">3 Days</option>
-    <option value="7" selected>7 Days</option>
-    <option value="10">10 Days</option>
-  </select>
+  <div style="margin-bottom: 20px;">
+    <label><b>Select Window:</b></label>
+    <select id="cutoff" onchange="loadData()">
+      <option value="1">1 Day</option>
+      <option value="3">3 Days</option>
+      <option value="7" selected>7 Days</option>
+      <option value="10">10 Days</option>
+    </select>
 
-  <button onclick="generateSummary()">Generate Summary</button>
+    <button onclick="showSummary()" style="margin-left: 10px;">
+      Show Summary
+    </button>
+  </div>
 
-  <div id="summary" style="margin-top:20px; white-space: pre-wrap;"></div>
+  <!-- SUMMARY -->
+  <div id="summary" style="
+    margin-top:20px;
+    padding:15px;
+    background:#f5f5f5;
+    border-radius:8px;
+    white-space: pre-wrap;
+  ">
+    <i>Click "Show Summary" to view AI insights</i>
+  </div>
 
+  <!-- CONTENT -->
   <div id="content" style="margin-top:30px;"></div>
 
   <script>
@@ -28,59 +42,59 @@
     async function loadData() {
       const cutoff = document.getElementById("cutoff").value;
 
-      const res = await fetch(`data/ai_feed_${cutoff}.json`);
-      const data = await res.json();
+      try {
+        const res = await fetch(`data/ai_feed_${cutoff}.json`);
+        const data = await res.json();
 
-      currentData = data;
+        currentData = data;
 
-      const container = document.getElementById("content");
-      container.innerHTML = "";
+        // Reset summary
+        document.getElementById("summary").innerHTML =
+          "<i>Click 'Show Summary' to view AI insights</i>";
 
-      for (const [category, value] of Object.entries(data.categories)) {
-        if (!value.items.length) continue;
+        const container = document.getElementById("content");
+        container.innerHTML = "";
 
-        container.innerHTML += `<h2>${category.toUpperCase()} (${value.count})</h2>`;
+        for (const [category, value] of Object.entries(data.categories)) {
+          if (!value.items.length) continue;
 
-        value.items.forEach(item => {
           container.innerHTML += `
-            <div style="margin-bottom:15px;">
-              <a href="${item.url}" target="_blank">
-                <b>${item.subject}</b>
-              </a>
-              <p>${item.body}</p>
-            </div>
+            <h2 style="margin-top:25px;">
+              ${category.toUpperCase()} (${value.count})
+            </h2>
           `;
-        });
+
+          value.items.forEach(item => {
+            container.innerHTML += `
+              <div style="
+                margin-bottom:15px;
+                padding:10px;
+                border-bottom:1px solid #ddd;
+              ">
+                <a href="${item.url}" target="_blank" style="text-decoration:none;">
+                  <b>${item.subject}</b>
+                </a>
+                <p style="margin:5px 0;">${item.body}</p>
+              </div>
+            `;
+          });
+        }
+
+      } catch (err) {
+        console.error("Error loading data:", err);
+        document.getElementById("content").innerHTML =
+          "<p>⚠️ Failed to load data</p>";
       }
     }
 
-    async function generateSummary() {
-      if (!currentData) return;
+    function showSummary() {
+      if (!currentData || !currentData.summary) {
+        document.getElementById("summary").innerText =
+          "No summary available yet.";
+        return;
+      }
 
-      const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Authorization": "Bearer YOUR_OPENROUTER_KEY",
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          model: "meta-llama/llama-3.1-8b-instruct",
-          messages: [
-            {
-              role: "system",
-              content: "You are an AI analyst. Summarize key developments with insight."
-            },
-            {
-              role: "user",
-              content: JSON.stringify(currentData)
-            }
-          ]
-        })
-      });
-
-      const json = await res.json();
-      document.getElementById("summary").innerText =
-        json.choices[0].message.content;
+      document.getElementById("summary").innerText = currentData.summary;
     }
 
     loadData();
