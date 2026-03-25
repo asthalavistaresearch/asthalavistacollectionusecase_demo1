@@ -2,7 +2,7 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const API_KEY = process.env.ASTHA_API_KEY;
-const COLLECTION = process.env.ASTHA_COLLECTION_TOKEN;
+const COLLECTION = process.env.ENCODED_COLLECTION_TOKEN;
 const BASE_URL = `https://api.asthalavista.com/v1/collection_api/${COLLECTION}`;
 const CUTOFFS = ["1d", "3d", "7d", "10d"];
 
