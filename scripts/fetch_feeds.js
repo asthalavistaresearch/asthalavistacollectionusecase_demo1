@@ -175,4 +175,37 @@ async function main() {
   }
 }
 
+// -----------------------------
+// Openrouter
+// -----------------------------
+async function generateSummary(data) {
+  console.log("\n=== GENERATING SUMMARY ===");
+
+  const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${OPENROUTER_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: "meta-llama/llama-3.1-8b-instruct",
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are an AI analyst. Summarize key AI developments with insight. Keep it concise and structured."
+        },
+        {
+          role: "user",
+          content: JSON.stringify(data),
+        },
+      ],
+    }),
+  });
+
+  const json = await res.json();
+
+  return json.choices?.[0]?.message?.content || "No summary generated";
+}
+
 main();
