@@ -2,79 +2,178 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>OpenAI Feed</title>
+  <title>AI Intelligence Feed</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      background: #f7f9fc;
+      color: #1a1a1a;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background: #111;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #333;
+    }
+
+    #summary {
+      margin-top: 20px;
+      padding: 15px;
+      background: #eef2ff;
+      border-radius: 8px;
+      white-space: pre-wrap;
+    }
+
+    .category {
+      margin-top: 35px;
+    }
+
+    .category-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .category-title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .category-desc {
+      font-size: 13px;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .card {
+      padding: 12px;
+      margin-top: 10px;
+      background: white;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #1d4ed8;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: #777;
+      margin-top: 5px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; padding: 20px; max-width: 900px; margin: auto;">
 
-  <h1>OpenAI Feed (Last Week)</h1>
+<body>
 
-  <div style="margin-bottom: 20px;">
+  <h1>AI Intelligence Feed</h1>
+  <div class="subtitle">Last 7 Days · Curated AI Signals</div>
 
-    <button onclick="showSummary()" style="margin-left: 10px;">
-      Show Summary
-    </button>
+  <button onclick="showSummary()">Show Summary</button>
+
+  <div id="summary">
+    <i>Click "Show Summary" to view insights</i>
   </div>
 
-  <!-- SUMMARY -->
-  <div id="summary" style="
-    margin-top:20px;
-    padding:15px;
-    background:#f5f5f5;
-    border-radius:8px;
-    white-space: pre-wrap;
-  ">
-    <i>Click "Show Summary" to view AI insights</i>
-  </div>
-
-  <!-- CONTENT -->
-  <div id="content" style="margin-top:30px;"></div>
+  <div id="content"></div>
 
   <script>
     let currentData = null;
 
-    async function loadData() {
-      const cutoff = 7;
+    // Category descriptions (important)
+    const CATEGORY_INFO = {
+      news: {
+        label: "News",
+        desc: "AI trends and major developments (from trends pipeline)"
+      },
+      papers: {
+        label: "Research Papers",
+        desc: "Latest research from arXiv (filtered by relevance)"
+      },
+      models: {
+        label: "Models",
+        desc: "New or updated AI models (registry + releases)"
+      },
+      projects: {
+        label: "Projects",
+        desc: "Trending GitHub repositories (AI tools & agents)"
+      }
+    };
 
+    async function loadData() {
       try {
-        const res = await fetch(`data/ai_feed_${cutoff}.json`);
+        const res = await fetch(`data/ai_feed_7.json`);
         const data = await res.json();
 
         currentData = data;
-
-        // Reset summary
-        document.getElementById("summary").innerHTML =
-          "<i>Click 'Show Summary' to view AI insights</i>";
 
         const container = document.getElementById("content");
         container.innerHTML = "";
 
         for (const [category, value] of Object.entries(data.categories)) {
+
           if (!value.items.length) continue;
 
+          const info = CATEGORY_INFO[category] || {
+            label: category,
+            desc: ""
+          };
+
           container.innerHTML += `
-            <h2 style="margin-top:25px;">
-              ${category.toUpperCase()} (${value.count})
-            </h2>
+            <div class="category">
+              <div class="category-header">
+                <div class="category-title">
+                  ${info.label} (${value.count})
+                </div>
+              </div>
+              <div class="category-desc">
+                ${info.desc}
+              </div>
+            </div>
           `;
 
           value.items.forEach(item => {
             container.innerHTML += `
-              <div style="
-                margin-bottom:15px;
-                padding:10px;
-                border-bottom:1px solid #ddd;
-              ">
-                <a href="${item.url}" target="_blank" style="text-decoration:none;">
+              <div class="card">
+                <a href="${item.url}" target="_blank">
                   <b>${item.subject}</b>
                 </a>
-                <p style="margin:5px 0;">${item.body}</p>
+
+                <p>${item.body || ""}</p>
+
+                <div class="meta">
+                  ${item.extras?.data_origin || ""} · ${item.timestamp || ""}
+                </div>
               </div>
             `;
           });
         }
 
       } catch (err) {
-        console.error("Error loading data:", err);
+        console.error(err);
         document.getElementById("content").innerHTML =
           "<p>⚠️ Failed to load data</p>";
       }
