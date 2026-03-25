@@ -1,0 +1,124 @@
+{
+  "cutoff": 7,
+  "timestamp": "2026-03-25T06:34:11.042Z",
+  "categories": {
+    "news": {
+      "count": 3,
+      "items": [
+        {
+          "subject": "How we monitor internal coding agents for misalignment",
+          "body": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+          "timestamp": "2026-03-20T04:00:02",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI to acquire Astral",
+          "body": "Accelerates Codex growth to power the next generation of Python developer tools",
+          "timestamp": "2026-03-19T14:00:02",
+          "url": "https://openai.com/index/openai-to-acquire-astral",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+          "body": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+          "timestamp": "2026-03-19T04:00:02",
+          "url": "https://openai.com/index/japan-teen-safety-blueprint",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        }
+      ]
+    },
+    "models": {
+      "count": 0,
+      "items": []
+    },
+    "projects": {
+      "count": 7,
+      "items": [
+        {
+          "subject": "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "body": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+          "timestamp": "2026-03-21T08:12:56",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+          "extras": {
+            "language": "Python",
+            "topics": "ai-research, ai-tools, aris, autonomous-agent, claude, claude-code, claude-code-skills, codex, deep-learning, gpt, idea-generation, llm, machine-learning, mcp, mcp-server, ml-research, openai, paper-review, paper-writing, research-automation",
+            "data_origin": "GitHub"
+          }
+        },
+        {
+          "subject": "vxcontrol/pentagi",
+          "body": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+          "timestamp": "2026-03-21T07:25:41",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "extras": {
+            "language": "Go",
+            "topics": "ai-agents, ai-security-tool, anthropic, autonomous-agents, golang, gpt, graphql, multi-agent-system, offensive-security, open-source, openai, penetration-testing, penetration-testing-tools, react, security-automation, security-testing, security-tools, self-hosted",
+            "data_origin": "GitHub"
+          }
+        },
+        {
+          "subject": "TencentCloudADP/youtu-agent",
+          "body": "A simple yet powerful agent framework that delivers with open-source models",
+          "timestamp": "2026-03-21T07:18:30",
+          "url": "https://github.com/TencentCloudADP/youtu-agent",
+          "extras": {
+            "language": "Python",
+            "topics": "agent-framework, agents, openai-agents, python",
+            "data_origin": "GitHub"
+          }
+        },
+        {
+          "subject": "SesethuNkqenkqa/veritas-ai",
+          "body": "🤖 Build and audit AI models with VeritasAI, ensuring fairness, explainability, and ethical governance throughout the machine learning lifecycle.",
+          "timestamp": "2026-03-21T06:35:52",
+          "url": "https://github.com/SesethuNkqenkqa/veritas-ai",
+          "extras": {
+            "language": "Python",
+            "topics": "agents, agi, ai-safety, algorithmic, computer-vision, explainable-ai, fastapi, finance, interpretable-ai, llm, llm-agents, memory, memoryos, molmo, openai, proro-agi, trustlog, veritas-os, worldmodel",
+            "data_origin": "GitHub"
+          }
+        },
+        {
+          "subject": "OpenRLHF/OpenRLHF",
+          "body": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ & TIS & vLLM & Ray & Async  RL)",
+          "timestamp": "2026-03-21T06:19:16",
+          "url": "https://github.com/OpenRLHF/OpenRLHF",
+          "extras": {
+            "language": "Python",
+            "topics": "large-language-models, openai-o1, proximal-policy-optimization, raylib, reinforcement-learning, reinforcement-learning-from-human-feedback, transformers, vllm",
+            "data_origin": "GitHub"
+          }
+        },
+        {
+          "subject": "madanrana/NanoGPT",
+          "body": "This project implements a simplified GPT-style transformer model from scratch using PyTorch. The goal is to understand the internal mechanics of large language models including:  • Token Embeddings   • Positional Embeddings   • Multi-Head Self Attention   • Transformer Blocks   • Cross Entropy Loss   • Autoregressive Text Generation",
+          "timestamp": "2026-03-19T23:50:07",
+          "url": "https://github.com/madanrana/NanoGPT",
+          "extras": {
+            "language": "Python",
+            "topics": "",
+            "data_origin": "GitHub"
+          }
+        },
+        {
+          "subject": "manikmakki/Project-RLHFL",
+          "body": "Project RLHFL (Reinforcement Learning from Human Feedback Loop): A fully local, self-improving language model that learns from your conversations automatically. Keeps your data private, and exposes an proxy endpoint for Ollama or OpenAI!",
+          "timestamp": "2026-03-19T14:50:39",
+          "url": "https://github.com/manikmakki/Project-RLHFL",
+          "extras": {
+            "language": "Python",
+            "topics": "",
+            "data_origin": "GitHub"
+          }
+        }
+      ]
+    }
+  }
+}
