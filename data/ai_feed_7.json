@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-03-25T08:17:05.268Z",
+  "timestamp": "2026-03-26T02:23:56.581Z",
   "categories": {
     "news": {
-      "count": 14,
+      "count": 15,
       "items": [
+        {
+          "subject": "Helping developers build safer AI experiences for teens",
+          "body": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+          "timestamp": "2026-03-25T04:00:02",
+          "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Update on the OpenAI Foundation",
+          "body": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+          "timestamp": "2026-03-25T04:00:02",
+          "url": "https://openai.com/index/update-on-the-openai-foundation",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Powering product discovery in ChatGPT",
+          "body": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+          "timestamp": "2026-03-25T04:00:02",
+          "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
           "body": "Artificial intelligence has rapidly emerged as one of the most critical workloads...",
@@ -112,24 +139,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Nvidia’s Always-On Chip Detects Faces in Less Than a Millisecond",
-          "body": "Always-on vision systems might be used in autonomous vehicles, robotics, or to help consumer electronics save power by turning screens off when no one’s around. But to be used in such a way, these systems need to minimize their own power consumption.",
-          "timestamp": "2026-03-18T14:00:01",
-          "url": "https://spectrum.ieee.org/face-recognition-nvidia-chip-soc",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "From Simulation to Production: How to Build Robots With AI",
-          "body": "The latest open models and frameworks from NVIDIA bring together simulation, robot...",
-          "timestamp": "2026-03-18T14:00:01",
-          "url": "https://blogs.nvidia.com/blog/build-robots-with-ai/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -229,5 +238,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points and 1 trend related to OpenAI developments:\n\n**Bullet Points:**\n\n* **OpenAI Acquires Astral**: OpenAI announced the acquisition of Astral, a company that provides developer tools and services. The acquisition is expected to accelerate the growth of OpenAI's Codex, a large language model that can generate code.\n* **NVIDIA and OpenAI Collaborate on AI Chips**: NVIDIA and OpenAI are collaborating on the development of AI chips that can be used to accelerate AI workloads. The collaboration is expected to lead to the creation of more efficient and powerful AI chips.\n* **OpenAI Japan Announces Japan Teen Safety Blueprint**: OpenAI Japan announced the Japan Teen Safety Blueprint, a set of policies and guidelines aimed at protecting teenagers from the risks of generative AI.\n* **How OpenAI Monitors Internal Coding Agents for Misalignment**: OpenAI published a blog post detailing its approach to monitoring internal coding agents for misalignment. The company uses a technique called chain-of-thought monitoring to detect risks and strengthen AI safety safeguards.\n\n**Trend:**\n\n* **Growing Focus on AI Safety and Ethics**: The trend in the AI industry is shifting towards a greater focus on AI safety and ethics. OpenAI, in particular, is prioritizing AI safety and has been working to develop more transparent and accountable AI systems. This trend is likely to continue as the industry recognizes the importance of ensuring that AI systems are developed and deployed in a responsible manner.\n\nAdditionally, NVIDIA's CEO, Jensen Huang, made several public statements and appearances in the past week, highlighting the company's efforts in AI and highlighting the importance of energy efficiency in AI architecture."
+  "summary": "Here are 4-6 key developments related to OpenAI, along with a trend:\n\n**Key Developments:**\n\n1. **Teen Safety Policies:** OpenAI released prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.\n2. **OpenAI Foundation's $1 Billion Investment:** The OpenAI Foundation announced plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.\n3. **Powering Product Discovery in ChatGPT:** ChatGPT introduced richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.\n4. **Acquisition of Astral:** OpenAI acquired Astral, accelerating Codex growth to power the next generation of Python developer tools.\n5. **Japan Teen Safety Blueprint:** OpenAI Japan announced the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.\n6. **Chain-of-Thought Monitoring:** OpenAI shared its approach to monitoring internal coding agents for misalignment, using chain-of-thought monitoring to detect risks and strengthen AI safety safeguards.\n\n**Trend:**\n\n* **Increased Focus on AI Safety and Responsibility:** OpenAI is prioritizing AI safety and responsibility, as evident from the release of teen safety policies, investment in community programs, and development of safer AI systems. This trend reflects the growing recognition of the need for more responsible AI development and deployment."
 }
