@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-03-30T12:49:03.806Z",
+  "timestamp": "2026-03-31T02:57:41.464Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 11,
       "items": [
+        {
+          "subject": "Helping disaster response teams turn AI into action across Asia",
+          "body": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+          "timestamp": "2026-03-30T14:00:01",
+          "url": "https://openai.com/index/helping-disaster-response-teams-asia",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Taisei Corporation shapes the next generation of talent with AI",
           "body": "Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.",
@@ -94,24 +103,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
-          "body": "This is a sponsored article brought to you by PNY Technologies . In today’s data-driven world, data scientists face mounting challenges in preparing, scaling, and processing massive datasets.",
-          "timestamp": "2026-03-23T14:00:01",
-          "url": "https://spectrum.ieee.org/nvidia-rtx-pro-6000-pny",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "NVIDIA and Emerald AI Join Leading Energy Companies to Pioneer Flexible AI Factories as Grid Assets",
-          "body": "Collaboration Combines AI Factory Design, Energy Resources and Flexibility to Speed Time...",
-          "timestamp": "2026-03-23T14:00:01",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -191,5 +182,5 @@
       ]
     }
   },
-  "summary": "Here are 6 key OpenAI related developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **OpenAI Safety Bug Bounty Program**: OpenAI has launched a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **New OpenAI Model: Nemotron-3**: OpenAI has released a new large language model, Nemotron-3, which has achieved state-of-the-art performance in various natural language processing tasks.\n* **ChatGPT Enterprise for Talent Development**: Taisei Corporation is leveraging ChatGPT Enterprise to drive AI-powered talent development across their organization.\n* **Agentic Commerce Protocol**: ChatGPT has introduced a richer, visually immersive shopping experience powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.\n* **OpenAI Foundation's $1 Billion Investment**: The OpenAI Foundation has announced plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.\n* **New OpenAI Model Specifications: Model Spec**: OpenAI has introduced a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.\n\n**Trend:** **Growing Focus on AI Safety and Responsible AI Development**: The recent developments highlight a growing focus on AI safety and responsible AI development, with OpenAI and other organizations investing in initiatives such as bug bounty programs, safety guidelines, and community collaborative efforts. This trend suggests that the AI industry is moving towards a more cautious and responsible approach to developing and deploying AI systems."
+  "summary": "Here are 4-6 key OpenAI-related developments with some insight, along with a trend:\n\n**Developments:**\n\n* **OpenAI Launches Safety Bug Bounty Program**: OpenAI has introduced a Safety Bug Bounty program to identify and address potential AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **Introducing Teen Safety Policies for Developers**: OpenAI has released prompt-based teen safety policies for developers using gpt-oss-safeguard, aimed at moderating age-specific risks in AI systems.\n* **Powering Product Discovery in ChatGPT**: ChatGPT now features richer, visually immersive shopping experiences powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.\n* **Taisei Corporation Adopts ChatGPT Enterprise for Talent Development**: Taisei Corporation is using ChatGPT Enterprise to drive AI-powered talent development across the organization.\n* **OpenAI Workshop with Gates Foundation for Disaster Response**: OpenAI is partnering with the Bill & Melinda Gates Foundation to host a workshop on using AI for disaster response in Asia.\n* **NVIDIA Debuts Dynamic Resource Allocation Driver for GPUs**: NVIDIA has donated a dynamic resource allocation driver for GPUs to the Kubernetes community, advancing open-source AI.\n\n**Trend:**\n\n* **Growing Focus on AI Safety and Accountability**: The trend in recent OpenAI-related developments is a growing emphasis on ensuring AI safety and accountability, with the company introducing measures such as the Safety Bug Bounty program and teen safety policies for developers. This reflects a broader industry effort to address the risks and challenges associated with the development and deployment of AI models."
 }
