@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-03-31T04:33:41.957Z",
+  "timestamp": "2026-04-01T00:10:29.553Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 11,
       "items": [
+        {
+          "subject": "Nvidia’s Jensen Huang says ‘We’ve achieved AGI.’ But no one can agree on what that means. Why the most important term in tech remains hotly debated.",
+          "body": "Nvidia’s Jensen Huang said last week that ‘AGI has already been achieved.’ Recent research says it hasn’t been—and proposes new ways to measure it.",
+          "timestamp": "2026-03-31T14:00:02",
+          "url": "https://fortune.com/2026/03/30/agi-definition-jensen-huang-lex-fridman-deepmind-turing-text-cognitive-taxonomy/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
+        {
+          "subject": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
+          "body": "Collaboration Delivers Greater Choice and Flexibility for Customers and Fully Compatible With...",
+          "timestamp": "2026-03-31T14:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Helping disaster response teams turn AI into action across Asia",
           "body": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
@@ -85,20 +103,11 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
-          "body": "Artificial intelligence has rapidly emerged as one of the most critical workloads...",
-          "timestamp": "2026-03-24T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-at-kubecon-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 7,
+      "count": 2,
       "items": [
         {
           "subject": "nvidia/RE-USE",
@@ -119,59 +128,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-Cascade-2-30B-A3B",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"nemotron-cascade-2\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"conversational\", \"custom_code\", \"en\", \"arxiv:2603.19220\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-03-24T22:39:23",
-          "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2512.20848\", \"arxiv:2512.20856\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-03-24T15:48:38",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2512.20848\", \"arxiv:2512.20856\", \"license:other\", \"endpoints_compatible\", \"modelopt\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-03-24T15:47:16",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2512.20848\", \"arxiv:2512.20856\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-03-24T15:46:24",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/nvpanoptix-3d-v1.1-matterport3d",
-          "body": "[\"arxiv:2503.11651\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-03-24T09:41:36",
-          "url": "https://huggingface.co/nvidia/nvpanoptix-3d-v1.1-matterport3d",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 key OpenAI-related developments with insight:\n\n* **AI for Disaster Response**: OpenAI has partnered with the Bill and Melinda Gates Foundation to host a workshop in Asia aimed at helping disaster response teams utilize AI to make more informed decisions and improve response times.\n* **Talent Development**: Taisei Corporation has announced the deployment of ChatGPT Enterprise to drive talent development across the organization, marking a significant milestone in the adoption of AI-powered talent development.\n* **OpenAI Safety Bug Bounty**: OpenAI has launched a Safety Bug Bounty program to identify and address potential AI safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **Teen Safety Policies**: OpenAI has released prompt-based teen safety policies for developers using gpt-oss-safeguard, aiming to moderate age-specific risks in AI systems and ensure a safer experience for teenagers.\n* **Foundation Update**: The OpenAI Foundation has announced plans to invest at least $1 billion in various initiatives, including curing diseases, promoting economic opportunities, and supporting AI resilience and community programs.\n* **Advancements in Model Spec**: OpenAI has provided an in-depth look at its approach to the Model Spec, aiming to strike a balance between safety, user freedom, and accountability as AI systems advance.\n\nTrend: **Increased Focus on Safety and Security**: The recent OpenAI-related developments highlight a growing emphasis on ensuring the safety and security of AI systems. This includes initiatives such as the Safety Bug Bounty program, teen safety policies, and the Foundation's investment in AI resilience and community programs. As AI continues to advance and become more ubiquitous, OpenAI is recognizing the importance of prioritizing safety and security to avoid potential risks and ensure a more responsible development of AI."
+  "summary": "Here are 4-6 bullet points summarizing key OpenAI related developments with insight, along with 1 trend:\n\n**Bullet Points:**\n\n* **AGI Debate Renewed**: Nvidia's Jensen Huang's statement on AGI achievement has sparked a debate on the definition of Artificial General Intelligence (AGI), with some experts arguing that it has not been achieved yet.\n* **OpenAI's Safety Bug Bounty Program**: OpenAI has launched a Safety Bug Bounty program to identify and address potential safety risks in AI systems, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **ChatGPT Updates**: OpenAI has introduced visually immersive product discovery in ChatGPT, enabling side-by-side comparisons and merchant integration.\n* **Partnerships and Collaborations**: Marvell has joined NVIDIA's AI ecosystem through NVLink Fusion, expanding the range of options for customers.\n* **Model Spec Released**: OpenAI has introduced the Model Spec framework, balancing safety, user freedom, and accountability for AI systems.\n* **Disaster Response with AI**: OpenAI has collaborated with the Bill and Melinda Gates Foundation to develop AI for disaster response teams in Asia.\n\n**Trend:** **Increased Focus on AI Safety and Social Responsibility**: The recent developments suggest that OpenAI is prioritizing safety and social responsibility in its research and product development, including the launch of the Safety Bug Bounty program and the introduction of the Model Spec framework. This trend is likely to continue as AI continues to be integrated into various aspects of life and the importance of ensuring its safe and responsible use becomes more apparent."
 }
