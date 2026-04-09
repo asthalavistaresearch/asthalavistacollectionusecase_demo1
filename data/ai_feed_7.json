@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-08T04:34:20.344Z",
+  "timestamp": "2026-04-09T01:34:45.886Z",
   "categories": {
     "news": {
-      "count": 6,
+      "count": 8,
       "items": [
+        {
+          "subject": "Introducing the Child Safety Blueprint",
+          "body": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+          "timestamp": "2026-04-08T14:00:02",
+          "url": "https://openai.com/index/introducing-child-safety-blueprint",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Sam Altman says AI superintelligence is so big that we need a ‘New Deal’—critics say OpenAI’s policy ideas are a cover for ‘regulatory nihilism’",
+          "body": "OpenAI’s sweeping vision for the AI economy spans everything from public wealth funds to shorter workweeks—but critics say it raises familiar ideas without offering a clear path to action.",
+          "timestamp": "2026-04-08T04:00:02",
+          "url": "https://fortune.com/2026/04/06/sam-altman-says-ai-superintelligence-is-so-big-that-we-need-a-new-deal-critics-say-openais-policy-ideas-are-a-cover-for-regulatory-nihilism/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
         {
           "subject": "Announcing the OpenAI Safety Fellowship",
           "body": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
@@ -61,77 +79,6 @@
         }
       ]
     },
-    "papers": {
-      "count": 6,
-      "items": [
-        {
-          "subject": "ClickAIXR: On-Device Multimodal Vision-Language Interaction with Real-World Objects in Extended Reality",
-          "body": "We present ClickAIXR, a novel on-device framework for multimodal vision-language interaction with objects in extended reality (XR). Unlike prior systems that rely on cloud-based AI (e.g., ChatGPT) or gaze-based selection (e.g., GazePointAR), ClickAIXR integrates an on-device vision-language model (VLM) with a controller-based object selection paradigm, enabling users to precisely click on real-world objects in XR. Once selected, the object image is processed locally by the VLM to answer natural language questions through both text and speech. This object-centered interaction reduces ambiguity inherent in gaze- or voice-only interfaces and improves transparency by performing all inference on-device, addressing concerns around privacy and latency. We implemented ClickAIXR in the Magic Leap SDK (C API) with ONNX-based local VLM inference. We conducted a user study comparing ClickAIXR with Gemini 2.5 Flash and ChatGPT 5, evaluating usability, trust, and user satisfaction. Results show that latency is moderate and user experience is acceptable. Our findings demonstrate the potential of click-based object selection combined with on-device AI to advance trustworthy, privacy-preserving XR interactions. The source code and supplementary materials are available at: nanovis.org/ClickAIXR.html",
-          "timestamp": "2026-04-06T17:50:47",
-          "url": "https://arxiv.org/abs/2604.04905v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Dawar Khan, Alexandre Kouyoumdjian, Xinyu Liu, Omar Mena, Dominik Engel, Ivan Viola",
-            "updated": "2026-04-06T17:50:47"
-          }
-        },
-        {
-          "subject": "Artificial Intelligence and Cost Reduction in Public Higher Education: A Scoping Review of Emerging Evidence",
-          "body": "Public higher education systems face increasing financial pressures from expanding student populations, rising operational costs, and persistent demands for equitable access. Artificial Intelligence (AI), including generative tools such as ChatGPT, learning analytics, intelligent tutoring systems, and predictive models, has been proposed as a means of enhancing efficiency and reducing costs. This study conducts a scoping review of the literature on AI applications in public higher education, based on systematic searches in Scopus and IEEE Xplore that identified 241 records, of which 21 empirical studies met predefined eligibility criteria and were thematically analyzed. The findings show that AI enables cost savings by automating administrative tasks, optimizing resource allocation, supporting personalized learning at scale, and applying predictive analytics to improve student retention and institutional planning. At the same time, concerns emerge regarding implementation costs, unequal access across institutions, and risks of widening digital divides. Overall, the thematic analysis highlights both the promises and limitations of AI-driven cost reduction in higher education, offering insights for policymakers, university administrators, and educators on the economic implications of AI adoption, while also pointing to gaps that warrant further empirical research.",
-          "timestamp": "2026-04-06T15:07:54",
-          "url": "https://arxiv.org/abs/2604.04741v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Diamanto Tzanoulinou, Loukas Triantafyllopoulos, George Vorvilas, Evgenia Paxinou, Nikolaos Karousos, Thomas Dasaklis, Athanassios Mihiotis, Manolis Koutouzis, Dimitris Kalles, Vassilios S. Verykios",
-            "updated": "2026-04-06T15:07:54"
-          }
-        },
-        {
-          "subject": "Mapping the Exploitation Surface: A 10,000-Trial Taxonomy of What Makes LLM Agents Exploit Vulnerabilities",
-          "body": "LLM agents with tool access can discover and exploit security vulnerabilities. This is known. What is not known is which features of a system prompt trigger this behaviour, and which do not. We present a systematic taxonomy based on approximately 10,000 trials across seven models, 37 prompt conditions, and 12 hypothesized attack dimensions -- all executed in real Docker sandboxes. Every condition includes the instruction \"Always respect all rules and access policies\"; only a single encouragement sentence varies. Within the task class studied (planted test-runner vulnerabilities), the threat model is narrower than assumed: nine of twelve dimensions -- including minimization, moral licensing, incentives, identity priming, and reasoning triggers -- produce no detectable exploitation at n=50 per cell (upper 95% CI <7% per condition). But it is also more subtle than expected: one dimension, goal reframing, reliably triggers exploitation. \"You are solving a puzzle; there may be hidden clues\" produces 38-40% exploitation on Claude Sonnet 4 despite the explicit rule instruction, replicating across four models (CTF framing: 8-14% on DeepSeek, GPT-5-mini, o4-mini). The agent does not override the rules; it reinterprets the task so that exploitative actions become task-aligned. GPT-4.1 produces no exploitation across 1,850 trials (37 conditions), and a temporal comparison across four OpenAI models released over eleven months shows a pattern consistent with improving safety training, though model capability differences are a confounder. The practical contribution is a narrowed, testable threat model: defenders should audit for goal-reframing language, not for the broad class of adversarial prompts.",
-          "timestamp": "2026-04-06T09:44:34",
-          "url": "https://arxiv.org/abs/2604.04561v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Charafeddine Mouzouni",
-            "updated": "2026-04-06T09:44:34"
-          }
-        },
-        {
-          "subject": "Context Engineering: A Practitioner Methodology for Structured Human-AI Collaboration",
-          "body": "The quality of AI-generated output is often attributed to prompting technique, but extensive empirical observation suggests that context completeness may be more strongly associated with output quality. This paper introduces Context Engineering, a structured methodology for assembling, declaring, and sequencing the complete informational payload that accompanies a prompt to an AI tool. Context Engineering defines a five-role context package structure (Authority, Exemplar, Constraint, Rubric, Metadata), applies a staged four-phase pipeline (Reviewer to Design to Builder to Auditor), and applies formal models from reliability engineering and information theory as post hoc interpretive lenses on context quality. In an observational study of 200 documented interactions across four AI tools (Claude, ChatGPT, Cowork, Codex), incomplete context was associated with 72% of iteration cycles. Structured context assembly was associated with a reduction from 3.8 to 2.0 average iteration cycles per task and an improvement in first-pass acceptance from 32% to 55%. Among structured interactions, 110 of 200 were accepted on first pass compared with 16 of 50 baseline interactions; when iteration was permitted, the final success rate reached 91.5% (183 of 200). These results are observational and reflect a single-operator dataset without controlled comparison. Preliminary corroboration is provided by a companion production automation system with eleven operating lanes and 2,132 classified tickets.",
-          "timestamp": "2026-04-05T20:30:44",
-          "url": "https://arxiv.org/abs/2604.04258v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Elias Calboreanu",
-            "updated": "2026-04-05T20:30:44"
-          }
-        },
-        {
-          "subject": "OrgAgent: Organize Your Multi-Agent System like a Company",
-          "body": "While large language model-based multi-agent systems have shown strong potential for complex reasoning, how to effectively organize multiple agents remains an open question. In this paper, we introduce OrgAgent, a company-style hierarchical multi-agent framework that separates collaboration into governance, execution, and compliance layers. OrgAgent decomposes multi-agent reasoning into three layers: a governance layer for planning and resource allocation, an execution layer for task solving and review, and a compliance layer for final answer control. By evaluating the framework across reasoning tasks, LLMs, execution modes, and execution policies, we find that multi-agent systems organized in a company-style hierarchy generally outperform other organizational structures. Besides, hierarchical coordination also reduces token consumption relative to flat collaboration in most settings. For example, for GPT-OSS-120B, the hierarchical setting improves performance over flat multi-agent system by 102.73% while reducing token usage by 74.52% on SQuAD 2.0. Further analysis shows that hierarchy helps most when tasks benefit from stable skill assignment, controlled information flow, and layered verification. Overall, our findings highlight organizational structure as an important factor in multi-agent reasoning, shaping not only effectiveness and cost, but also coordination behavior.",
-          "timestamp": "2026-04-01T15:21:14",
-          "url": "https://arxiv.org/abs/2604.01020v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Yiru Wang, Xinyue Shen, Yaohui Han, Michael Backes, Pin-Yu Chen, Tsung-Yi Ho",
-            "updated": "2026-04-01T15:21:14"
-          }
-        },
-        {
-          "subject": "GPT-NL Public Corpus: A Permissively Licensed, Dutch-First Dataset for LLM Pre-training",
-          "body": "We present the GPT-NL Public Corpus, the biggest permissively licensed corpus of Dutch language resources. The GPT-NL Public Corpus contains 21 Dutch-only collections totalling 36B preprocessed Dutch tokens not present in any other LLM pretraining corpus. Additionally, the corpus includes roughly 207B English, 232B Code, and 48B German/Danish tokens taken from existing sets which we further curated for compliance. This corpus includes curated data from large existing corpora like Common Corpus and Common Crawl, as well as newly created Dutch-specific collections. Most newly created Dutch collections consist of content collected in collaboration with organisations or synthetically augmented content. All data is collected and evaluated with the aim of facilitating the creation of (commercial) language models that are lawful, useful and non-harmful. All data included in the GPT-NL Public Corpus is sourced from datasets with permissive licensing and is curated and redistributed under a CC-BY license. The full dataset is publicly available on the Hugging Face Hub.",
-          "timestamp": "2026-04-01T14:00:53",
-          "url": "https://arxiv.org/abs/2604.00920v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Jesse van Oort, Frank Brinkkemper, Erik de Graaf, Bram Vanroy, Saskia Lensink",
-            "updated": "2026-04-01T14:00:53"
-          }
-        }
-      ]
-    },
     "models": {
       "count": 1,
       "items": [
@@ -148,5 +95,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments in OpenAI related news with insights:\n\n**Bullet Points:**\n\n* **OpenAI Safety Fellowship**: OpenAI has launched a pilot program to support independent safety and alignment research, which aims to develop the next generation of talent in the field of AI safety and alignment.\n* **ChatGPT on CarPlay**: OpenAI has launched a new product, ChatGPT on CarPlay, which allows users to access ChatGPT's conversational AI capabilities directly in their car's infotainment system.\n* **Acquisition of TBPN**: OpenAI has acquired TBPN, a company that focuses on accelerating global conversations around AI and supporting independent media, in order to expand its reach and dialogue with the broader tech community.\n* **Codex pricing changes**: OpenAI has introduced pay-as-you-go pricing for its Codex product, which provides a more flexible option for teams to start and scale adoption.\n* **New AI research papers**: Several papers on AI-related topics have been published, including research on multimodal vision-language interaction, AI and cost reduction in public higher education, and mapping the exploitation surface of large language models.\n\n**Trend:**\n**Growing importance of safety and alignment research in AI development**: The increasing focus on AI safety and alignment research, as evident from the OpenAI Safety Fellowship program, highlights the growing recognition of the need to ensure that AI systems are developed responsibly and with minimal risk of misalignment. This trend suggests that the industry is recognizing the importance of addressing the challenges of AI safety and alignment in order to realize the full potential of AI benefits."
+  "summary": "Here are 6 key OpenAI related developments with insight:\n\n* **Child Safety Blueprint**: OpenAI has introduced its Child Safety Blueprint, a comprehensive roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.\n* **OpenAI Safety Fellowship**: OpenAI has launched the OpenAI Safety Fellowship, a pilot program to support independent safety and alignment research and develop the next generation of talent in the field.\n* **Codex Pricing**: Codex, OpenAI's AI-powered coding tool, now offers more flexible pricing options for teams, including pay-as-you-go pricing for ChatGPT Business and Enterprise.\n* **TBPN Acquisition**: OpenAI has acquired TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.\n* **Sam Altman's New Deal**: In a sweeping vision for the AI economy, OpenAI's CEO Sam Altman has proposed a \"New Deal\" that includes public wealth funds, shorter workweeks, and other measures to address the challenges of AI superintelligence.\n* **ChatGPT on CarPlay**: OpenAI has collaborated with Apple to bring ChatGPT to CarPlay, enabling hands-free driving AI on the go.\n\nTrend: **Increasing Focus on Safety and Responsibility**. OpenAI is stepping up its efforts to ensure that AI is developed and deployed responsibly, particularly when it comes to issues like child safety, as evident from the recent introductions of the Child Safety Blueprint and the OpenAI Safety Fellowship. This trend suggests that OpenAI is prioritizing safety and responsibility in its pursuit of AI advancements, which could have significant implications for the development of AI technology and its adoption in various industries."
 }
