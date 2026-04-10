@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-09T04:30:41.088Z",
+  "timestamp": "2026-04-10T00:10:05.445Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 11,
       "items": [
+        {
+          "subject": "OpenAI Full Fan Mode Contest: Terms & Conditions",
+          "body": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on Instagram, and win IPL match tickets.",
+          "timestamp": "2026-04-09T14:00:02",
+          "url": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "The next phase of enterprise AI",
+          "body": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+          "timestamp": "2026-04-09T04:00:02",
+          "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Balyasny Asset Management built an AI research engine",
+          "body": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
+          "timestamp": "2026-04-09T04:00:02",
+          "url": "https://openai.com/index/balyasny-asset-management",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Introducing the Child Safety Blueprint",
           "body": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
@@ -80,20 +107,9 @@
       ]
     },
     "models": {
-      "count": 1,
-      "items": [
-        {
-          "subject": "nvidia/Gemma-4-31B-IT-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"Gemma-4-31B-IT\", \"lighthouse\", \"quantized\", \"NVFP4\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-31B-it\", \"base_model:quantized:google/gemma-4-31B-it\", \"license:other\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-04-02T19:47:50",
-          "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing OpenAI-related developments with insight:\n\n• **Introducing the Child Safety Blueprint**: OpenAI has released a roadmap for building AI responsibly, focusing on safeguards, age-appropriate design, and collaboration to protect and empower young people online. This move aims to address concerns around AI safety and child protection.\n\n• **Criticism of Sam Altman's \"New Deal\" proposal**: Fortune published an article that criticizes OpenAI's recent policy ideas as a cover for \"regulatory nihilism,\" suggesting that the proposals lack a clear path to action and only raise familiar ideas.\n\n• **OpenAI Safety Fellowship**: OpenAI has launched a pilot program to support independent safety and alignment research, aiming to develop the next generation of talent in AI safety and alignment.\n\n• **Acquisition of TBPN**: OpenAI has acquired TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.\n\n• **Flexible pricing for Codex**: OpenAI has introduced pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams with a more flexible option to start and scale adoption.\n\nTrend:\n**Increased focus on AI safety and responsibility**: OpenAI is emphasizing its commitment to ensuring the safe and responsible development of AI, as seen in the release of the Child Safety Blueprint, the OpenAI Safety Fellowship, and other initiatives. This trend highlights the growing recognition of the importance of AI safety and responsibility in the industry."
+  "summary": "Here are 4-6 key OpenAI related developments with insights:\n\n* **OpenAI announced the Full Fan Mode Contest**: The contest aims to engage cricket fans through a contest where participants can submit their creative content on Instagram, with the winner receiving IPL match tickets. This development highlights OpenAI's efforts to connect with its users and create engaging experiences.\n* **The next phase of enterprise AI**: OpenAI outlined its vision for the next phase of enterprise AI, emphasizing the acceleration of adoption across various industries. This marks a significant shift towards more widespread adoption of AI in the enterprise sector.\n* **Balyasny Asset Management built an AI research engine**: By leveraging OpenAI's tools and expertise, Balyasny Asset Management has created an AI research engine that is transforming investment research. This example showcases the potential of OpenAI's technology in various industries.\n* **Introducing the Child Safety Blueprint**: OpenAI has launched a blueprint for building AI responsibly, including safeguards, age-appropriate design, and collaboration to protect and empower young people online. This development underscores OpenAI's commitment to safety and responsible AI development.\n* **Announcing the OpenAI Safety Fellowship**: A pilot program has been introduced to support independent safety and alignment research and develop the next generation of talent. This program indirectly reinforces the importance of AI safety research.\n* **OpenAI acquired TBPN**: The acquisition is aimed at accelerating global conversations around AI and supporting independent media, highlighting OpenAI's efforts to expand its dialogue with the broader tech community.\n\nTrend: **Growing emphasis on enterprise AI and AI safety research**: As AI technology continues to advance, OpenAI is shifting its focus towards building the next generation of AI for the enterprise sector and developing the next generation of talent for AI safety research. This trend indicates a maturing of the AI industry, with more attention being paid to the practical applications and potential risks associated with AI technology."
 }
