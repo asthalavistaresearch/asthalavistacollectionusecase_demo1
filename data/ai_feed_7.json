@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-10T00:10:05.445Z",
+  "timestamp": "2026-04-10T04:44:07.342Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 8,
       "items": [
         {
           "subject": "OpenAI Full Fan Mode Contest: Terms & Conditions",
@@ -76,33 +76,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "OpenAI acquires TBPN",
-          "body": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
-          "timestamp": "2026-04-03T04:00:01",
-          "url": "https://openai.com/index/openai-acquires-tbpn",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Codex now offers more flexible pricing for teams",
-          "body": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
-          "timestamp": "2026-04-03T04:00:01",
-          "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
-          "body": "Open models are driving a new wave of on-device AI, extending innovation...",
-          "timestamp": "2026-04-03T04:00:01",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -111,5 +84,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 key OpenAI related developments with insights:\n\n* **OpenAI announced the Full Fan Mode Contest**: The contest aims to engage cricket fans through a contest where participants can submit their creative content on Instagram, with the winner receiving IPL match tickets. This development highlights OpenAI's efforts to connect with its users and create engaging experiences.\n* **The next phase of enterprise AI**: OpenAI outlined its vision for the next phase of enterprise AI, emphasizing the acceleration of adoption across various industries. This marks a significant shift towards more widespread adoption of AI in the enterprise sector.\n* **Balyasny Asset Management built an AI research engine**: By leveraging OpenAI's tools and expertise, Balyasny Asset Management has created an AI research engine that is transforming investment research. This example showcases the potential of OpenAI's technology in various industries.\n* **Introducing the Child Safety Blueprint**: OpenAI has launched a blueprint for building AI responsibly, including safeguards, age-appropriate design, and collaboration to protect and empower young people online. This development underscores OpenAI's commitment to safety and responsible AI development.\n* **Announcing the OpenAI Safety Fellowship**: A pilot program has been introduced to support independent safety and alignment research and develop the next generation of talent. This program indirectly reinforces the importance of AI safety research.\n* **OpenAI acquired TBPN**: The acquisition is aimed at accelerating global conversations around AI and supporting independent media, highlighting OpenAI's efforts to expand its dialogue with the broader tech community.\n\nTrend: **Growing emphasis on enterprise AI and AI safety research**: As AI technology continues to advance, OpenAI is shifting its focus towards building the next generation of AI for the enterprise sector and developing the next generation of talent for AI safety research. This trend indicates a maturing of the AI industry, with more attention being paid to the practical applications and potential risks associated with AI technology."
+  "summary": "Here are 4-6 bullet points summarizing key OpenAI related developments, along with a trend:\n\n**Key OpenAI developments:**\n\n* **Enterprise AI expansion**: OpenAI outlined the next phase of enterprise AI adoption, which is accelerating across various industries, with the use of Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.\n* **Child Safety Blueprint**: OpenAI introduced the Child Safety Blueprint, a roadmap for building AI responsibly, with a focus on safeguards, age-appropriate design, and collaboration to protect young people online.\n* **Research and development**: OpenAI's Safety Fellowship program was announced, aiming to support independent safety and alignment research and develop the next generation of talent.\n* **ChatGPT updates**: ChatGPT integration on CarPlay was launched, allowing for hands-free AI experiences on the go.\n* **OpenAI's vision for the AI economy**: CEO Sam Altman proposed a sweeping vision for the AI economy, including public wealth funds and shorter workweeks, but critics argue that it raises familiar ideas without offering clear action plans.\n\n**Trend:**\nThe trend of OpenAI's focus on **responsibility and accountability** in AI development is becoming more prominent, with initiatives such as the Child Safety Blueprint and the Safety Fellowship program aimed at ensuring the safe and responsible deployment of AI technology. This reflects the growing recognition of the importance of ethics and oversight in AI development, and OpenAI's commitment to addressing these concerns."
 }
