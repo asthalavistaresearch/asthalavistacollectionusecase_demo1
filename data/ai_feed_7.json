@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-14T23:56:14.133Z",
+  "timestamp": "2026-04-15T04:43:09.960Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 7,
       "items": [
         {
           "subject": "12 Graphs That Explain the State of AI in 2026",
@@ -67,15 +67,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Sam Altman says AI superintelligence is so big that we need a ‘New Deal’—critics say OpenAI’s policy ideas are a cover for ‘regulatory nihilism’",
-          "body": "OpenAI’s sweeping vision for the AI economy spans everything from public wealth funds to shorter workweeks—but critics say it raises familiar ideas without offering a clear path to action.",
-          "timestamp": "2026-04-08T04:00:02",
-          "url": "https://fortune.com/2026/04/06/sam-altman-says-ai-superintelligence-is-so-big-that-we-need-a-new-deal-critics-say-openais-policy-ideas-are-a-cover-for-regulatory-nihilism/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
         }
       ]
     },
@@ -105,5 +96,5 @@
       ]
     }
   },
-  "summary": "Here are the key OpenAI related developments with insight, along with a trend:\n\n**Developments:**\n\n* OpenAI continues to advance its capabilities with the launch of **GPT-5.4**, a significant upgrade to its conversational AI model, and **Codex**, a coding companion that can suggest code in response to a prompt.\n* The company is expanding its partnerships and collaborations, with **Cloudflare** integrating OpenAI's GPT-5.4 and Codex into its Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n* **CyberAgent** is leveraging OpenAI's ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.\n* OpenAI is focusing on **responsible AI development** with the introduction of the Child Safety Blueprint, a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.\n* **Critics** are questioning OpenAI's policy ideas, including a proposed \"New Deal\" for the AI economy, citing a lack of clear action and what some see as \"regulatory nihilism\".\n\n**Trend:** The trend is that **OpenAI is rapidly expanding its capabilities and partnerships**, while also increasing its focus on responsible AI development and navigating the challenges of AI regulation and public perception. As the AI industry continues to advance, we can expect to see more collaborations and developments in various sectors, with a growing emphasis on ensuring the safe and responsible use of AI."
+  "summary": "Here are 4-6 key OpenAI related developments with insight:\n\n* **OpenAI and Conversational AI**: OpenAI has partnered with Cloudflare to bring its GPT-5.4 and Codex models to Cloudflare Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks. This move highlights OpenAI's growing focus on conversational AI and its ability to apply its technology to enterprise use cases.\n* **Enterprise Adoption**: Balyasny Asset Management has built an AI research engine using OpenAI's models, demonstrating the growing adoption of OpenAI's technology in the financial sector. This trend is expected to continue as OpenAI's technology becomes more accessible and user-friendly.\n* **Responsible AI**: OpenAI has released its Child Safety Blueprint, a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online. This move reflects OpenAI's growing focus on the social and ethical implications of its technology.\n* **IPO and Fundraising**: The largest AI companies, including OpenAI, are reportedly hurtling toward IPOs later this year. This development reflects the growing investment and interest in AI technology.\n* **ChatGPT Enterprise**: CyberAgent is using ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming. This move highlights the growing use of OpenAI's technology in industries beyond finance and enterprise.\n\nTrend: **Growing Enterprise Adoption**: OpenAI's technology is increasingly being adopted by enterprises across various industries, driven by its ability to solve real-world problems and improve decision-making. This trend is expected to continue as OpenAI's technology becomes more accessible and user-friendly."
 }
