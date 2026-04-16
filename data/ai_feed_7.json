@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-15T04:43:09.960Z",
+  "timestamp": "2026-04-16T02:11:14.762Z",
   "categories": {
     "news": {
-      "count": 7,
+      "count": 10,
       "items": [
+        {
+          "subject": "New Adobe Premiere Color Grading Mode Accelerated on NVIDIA GPUs",
+          "body": "The NAB Show 2026 trade show, running April 18-22 in Las Vegas...",
+          "timestamp": "2026-04-15T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-nab-adobe-premiere-color-mode/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "OpenAI Engineer Helps Companies Attract Buyers and Boost Sales",
+          "body": "Like many engineers, Sarang Gupta spent his childhood tinkering with everyday items around the house. From a young age he gravitated to projects that could make a difference in someone’s everyday life.",
+          "timestamp": "2026-04-15T04:00:02",
+          "url": "https://spectrum.ieee.org/openai-engineer-sarang-gupta",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
+          }
+        },
+        {
+          "subject": "Trusted access for the next era of cyber defense",
+          "body": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+          "timestamp": "2026-04-15T04:00:02",
+          "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Launches Ising, the World’s First Open AI Models to Accelerate the Path to Useful Quantum Computers",
+          "body": "NVIDIA today announced the world’s first family of open source quantum AI...",
+          "timestamp": "2026-04-15T04:00:02",
+          "url": "http://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "12 Graphs That Explain the State of AI in 2026",
           "body": "The capabilities of leading AI models continue to accelerate and the largest AI companies, including OpenAI and Anthropic , are hurtling toward IPOs later this year. Yet resentment towards AI continues to simmer and in some cases has boiled over,...",
@@ -58,26 +94,27 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Introducing the Child Safety Blueprint",
-          "body": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
-          "timestamp": "2026-04-08T14:00:02",
-          "url": "https://openai.com/index/introducing-child-safety-blueprint",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "subject": "nvidia/parakeet-unified-en-0.6b",
           "body": "[\"nemo\", \"speech-recognition\", \"unified-asr\", \"offline-asr\", \"streaming-asr\", \"automatic-speech-recognition\", \"speech\", \"audio\", \"FastConformer\", \"RNNT\", \"Parakeet\", \"ASR\", \"pytorch\", \"NeMo\", \"dataset:nvidia/Granary\", \"dataset:YTC\", \"dataset:Yodas2\", \"dataset:LibriLight\", \"dataset:librispeech_asr\", \"dataset:fisher_corpus\", \"dataset:Switchboard-1\", \"dataset:WSJ-0\", \"dataset:WSJ-1\", \"dataset:National-Singapore-Corpus-Part-1\", \"dataset:National-Singapore-Corpus-Part-6\", \"dataset:vctk\", \"dataset:voxpopuli\", \"dataset:europarl\", \"dataset:multilingual_librispeech\", \"dataset:fleurs\", \"dataset:mozilla-foundation/common_voice_8_0\", \"dataset:MLCommons/peoples_speech\", \"dataset:google/speech_commands\", \"arxiv:2312.17279\", \"arxiv:2305.05084\", \"arxiv:2304.09325\", \"license:other\", \"model-index\", \"region:us\"]",
           "timestamp": "2026-04-14T03:46:34",
           "url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/audio-flamingo-next-hf",
+          "body": "[\"transformers\", \"safetensors\", \"audioflamingonext\", \"text-generation\", \"audio\", \"speech\", \"sound\", \"music\", \"reasoning\", \"audio understanding\", \"ASR\", \"audio captioning\", \"long-context\", \"audio-language-model\", \"long-audio\", \"timestamp-grounding\", \"instruction-tuned\", \"audio-text-to-text\", \"en\", \"dataset:nvidia/LongAudio\", \"dataset:nvidia/AF-Chat\", \"dataset:nvidia/AF-Think\", \"arxiv:2604.10905\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-04-14T01:54:54",
+          "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -96,5 +133,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key OpenAI related developments with insight:\n\n* **OpenAI and Conversational AI**: OpenAI has partnered with Cloudflare to bring its GPT-5.4 and Codex models to Cloudflare Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks. This move highlights OpenAI's growing focus on conversational AI and its ability to apply its technology to enterprise use cases.\n* **Enterprise Adoption**: Balyasny Asset Management has built an AI research engine using OpenAI's models, demonstrating the growing adoption of OpenAI's technology in the financial sector. This trend is expected to continue as OpenAI's technology becomes more accessible and user-friendly.\n* **Responsible AI**: OpenAI has released its Child Safety Blueprint, a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online. This move reflects OpenAI's growing focus on the social and ethical implications of its technology.\n* **IPO and Fundraising**: The largest AI companies, including OpenAI, are reportedly hurtling toward IPOs later this year. This development reflects the growing investment and interest in AI technology.\n* **ChatGPT Enterprise**: CyberAgent is using ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming. This move highlights the growing use of OpenAI's technology in industries beyond finance and enterprise.\n\nTrend: **Growing Enterprise Adoption**: OpenAI's technology is increasingly being adopted by enterprises across various industries, driven by its ability to solve real-world problems and improve decision-making. This trend is expected to continue as OpenAI's technology becomes more accessible and user-friendly."
+  "summary": "Here are 4-6 key OpenAI-related developments with insight, followed by a trend:\n\n**Developments:**\n\n* OpenAI is expanding its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance. This move highlights OpenAI's growing focus on AI-powered cybersecurity solutions.\n* Cloudflare has integrated OpenAI's GPT-5.4 and Codex into Cloudflare Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n* CyberAgent is using ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.\n* OpenAI is outlining the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.\n* NVIDIA has launched Ising, the world's first open AI models to accelerate the path to useful quantum computers.\n* Balyasny Asset Management is using OpenAI to build an AI research engine that combines rigorous model evaluation and full-platform use of OpenAI and agent workflows.\n\n**Trend:**\n\n* The increasing adoption of AI in various industries, particularly in enterprise settings, is driving OpenAI's growth and expansion into new areas such as AI-powered cybersecurity and quantum computing. As AI adoption accelerates, we expect to see more companies partnering with OpenAI to leverage its cutting-edge technology and expertise. Moreover, the trend towards edge computing, represented by the integration of OpenAI's models into Cloudflare Agent Cloud, points to a shift towards more decentralized, distributed AI architectures that prioritize speed, security, and real-time processing."
 }
