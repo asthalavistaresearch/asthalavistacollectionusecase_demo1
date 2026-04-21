@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-21T00:52:43.087Z",
+  "timestamp": "2026-04-21T04:45:46.638Z",
   "categories": {
     "news": {
       "count": 12,
@@ -116,7 +116,7 @@
       ]
     },
     "models": {
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "subject": "nvidia/Lyra-2.0",
@@ -147,19 +147,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/parakeet-unified-en-0.6b",
-          "body": "[\"nemo\", \"speech-recognition\", \"unified-asr\", \"offline-asr\", \"streaming-asr\", \"automatic-speech-recognition\", \"speech\", \"audio\", \"FastConformer\", \"RNNT\", \"Parakeet\", \"ASR\", \"pytorch\", \"NeMo\", \"dataset:nvidia/Granary\", \"dataset:YTC\", \"dataset:Yodas2\", \"dataset:LibriLight\", \"dataset:librispeech_asr\", \"dataset:fisher_corpus\", \"dataset:Switchboard-1\", \"dataset:WSJ-0\", \"dataset:WSJ-1\", \"dataset:National-Singapore-Corpus-Part-1\", \"dataset:National-Singapore-Corpus-Part-6\", \"dataset:vctk\", \"dataset:voxpopuli\", \"dataset:europarl\", \"dataset:multilingual_librispeech\", \"dataset:fleurs\", \"dataset:mozilla-foundation/common_voice_8_0\", \"dataset:MLCommons/peoples_speech\", \"dataset:google/speech_commands\", \"arxiv:2312.17279\", \"arxiv:2305.05084\", \"arxiv:2304.09325\", \"license:other\", \"model-index\", \"region:us\"]",
-          "timestamp": "2026-04-14T03:46:34",
-          "url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments:\n\n* **Hyatt deploys AI across its global workforce**: Hyatt is using OpenAI's ChatGPT Enterprise, GPT-5.4, and Codex to improve productivity, operations, and guest experiences.\n* **Adobe and NVIDIA advance AI-driven creative intelligence**: Adobe and NVIDIA are using AI agents to transform how work gets done across industries, accelerating creative intelligence.\n* **NVIDIA showcases AI-driven manufacturing at Hannover Messe**: NVIDIA and its partners demonstrated the future of AI-driven manufacturing at the Hannover Messe 2026, marking a significant milestone in the field.\n* **OpenAI updates Codex app with new features**: The updated Codex app for macOS and Windows adds new features such as computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.\n* **OpenAI introduces GPT-Rosalind for life sciences research**: GPT-Rosalind is a new frontier reasoning model that can accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.\n* **NVIDIA launches Ising, the world's first open AI models for quantum computing**: NVIDIA has released Ising, a family of open-source AI models that can accelerate the path to useful quantum computers.\n\nTrend:\n**The AI industry is moving towards integrating AI across various industries, transforming how work gets done**. The recent developments in AI-driven manufacturing, creative intelligence, and cyber defense are examples of how AI is becoming a crucial tool for businesses and industries, leading to increased productivity, innovation, and efficiency."
+  "summary": "**Key Developments:**\n\n* **Hyatt Deploys ChatGPT Enterprise**: Hyatt is using OpenAI's ChatGPT Enterprise to improve productivity, operations, and guest experiences across its global workforce.\n* **Adobe Accelerates Creative Intelligence**: Adobe is using AI agents powered by NVIDIA and WPP to transform the creative industry, accelerating breakthroughs in creative intelligence.\n* **NVIDIA Showcases AI-Driven Manufacturing**: NVIDIA and its partners showcased the future of AI-driven manufacturing at Hannover Messe 2026, highlighting the potential for AI to revolutionize the industry.\n* **OpenAI Updates Codex App**: OpenAI updated the Codex app to accelerate developer workflows, adding features such as computer use, in-app browsing, and image generation.\n* **OpenAI Introduces GPT-Rosalind**: OpenAI introduced GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, and scientific research workflows.\n* **NVIDIA Launches Ising**: NVIDIA launched Ising, the world's first open AI models to accelerate the path to useful quantum computers.\n\n**Trend:**\n**Accelerated Adoption of AI in Various Industries**: The current trend is the accelerated adoption of AI in various industries, including hospitality (Hyatt), creative industries (Adobe), manufacturing (NVIDIA), and life sciences (OpenAI). This suggests a growing recognition of the potential of AI to transform business operations, improve productivity, and drive innovation."
 }
