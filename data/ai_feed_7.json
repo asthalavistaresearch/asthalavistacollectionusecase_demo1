@@ -1,24 +1,78 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-24T04:51:47.329Z",
+  "timestamp": "2026-04-25T01:01:51.109Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 21,
       "items": [
         {
-          "subject": "Introducing workspace agents in ChatGPT",
-          "body": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+          "subject": "Product Hunt Launch: Codex 3.0 by OpenAI",
+          "body": "Codex can now build, test & debug on autopilot",
+          "timestamp": "2026-04-24T14:00:02",
+          "url": "https://www.producthunt.com/products/codex-3-0-by-openai",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
+          "body": "AI agents have revolutionized developer workflows, and their next frontier is knowledge...",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How to get started with Codex",
+          "body": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/codex-how-to-start",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Workspace agents",
-          "body": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/academy/workspace-agents",
+          "subject": "What is Codex?",
+          "body": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/what-is-codex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Working with Codex",
+          "body": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/working-with-codex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Plugins and skills",
+          "body": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/codex-plugins-and-skills",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Top 10 uses for Codex at work",
+          "body": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Automations",
+          "body": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/codex-automations",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -33,15 +87,6 @@
           }
         },
         {
-          "subject": "Introducing OpenAI Privacy Filter",
-          "body": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/introducing-openai-privacy-filter",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "Introducing ChatGPT Images 2.0",
           "body": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
           "timestamp": "2026-04-23T04:00:01",
@@ -51,12 +96,39 @@
           }
         },
         {
-          "subject": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
-          "body": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications...",
-          "timestamp": "2026-04-22T14:00:01",
-          "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
+          "subject": "Introducing OpenAI Privacy Filter",
+          "body": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+          "timestamp": "2026-04-23T04:00:01",
+          "url": "https://openai.com/index/introducing-openai-privacy-filter",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Workspace agents",
+          "body": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+          "timestamp": "2026-04-23T04:00:01",
+          "url": "https://openai.com/academy/workspace-agents",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing workspace agents in ChatGPT",
+          "body": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+          "timestamp": "2026-04-23T04:00:01",
+          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Product Hunt Launch: ChatGPT Images 2.0",
+          "body": "First image model with thinking capabilities",
+          "timestamp": "2026-04-22T14:00:01",
+          "url": "https://www.producthunt.com/products/chatgpt-images-2-0",
+          "extras": {
+            "data_origin": "Product Hunt"
           }
         },
         {
@@ -69,12 +141,12 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: ChatGPT Images 2.0",
-          "body": "First image model with thinking capabilities",
+          "subject": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
+          "body": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications...",
           "timestamp": "2026-04-22T14:00:01",
-          "url": "https://www.producthunt.com/products/chatgpt-images-2-0",
+          "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
           "extras": {
-            "data_origin": "Product Hunt"
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -105,19 +177,19 @@
           }
         },
         {
-          "subject": "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
-          "body": "AI agents are transforming how work gets done across all industries, accelerating...",
+          "subject": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
+          "body": "Manufacturing is at an inflection point. Across every major industrial economy, the...",
           "timestamp": "2026-04-20T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+          "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
-          "body": "Manufacturing is at an inflection point. Across every major industrial economy, the...",
+          "subject": "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
+          "body": "AI agents are transforming how work gets done across all industries, accelerating...",
           "timestamp": "2026-04-20T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+          "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -150,5 +222,5 @@
       ]
     }
   },
-  "summary": "**Summary of Key Developments:**\n\n1. **OpenAI Announces Workspace Agents in ChatGPT**: OpenAI has introduced workspace agents in ChatGPT, which can automate complex workflows, run in the cloud, and help teams scale work across tools securely.\n2. **OpenAI Launches OpenAI Privacy Filter**: OpenAI has introduced a new model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy.\n3. **NVIDIA and Google Cloud Collaborate on Agentic and Physical AI**: NVIDIA and Google Cloud have collaborated to advance agentic and physical AI, enabling applications in various industries such as climate, conservation, and recycling.\n4. **NVIDIA Showcases AI-Driven Manufacturing at Hannover Messe 2026**: NVIDIA and its partners showcased the future of AI-driven manufacturing at Hannover Messe 2026, highlighting the potential of AI to transform industries.\n5. **ChatGPT Images 2.0 Introduces State-of-the-Art Image Generation**: ChatGPT Images 2.0 has been introduced, offering improved text rendering, multilinguial support, and advanced visual reasoning capabilities.\n6. **OpenAI Launches Codex Transformation Partners**: OpenAI has launched a program with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle.\n\n**Trend:**\n\n* **Increased Adoption of AI in Enterprise Settings**: There is a growing trend of AI adoption in enterprise settings, with companies like Hyatt and Adobe leveraging AI to improve productivity, operations, and guest experiences. This trend is expected to continue, driven by the increasing availability of AI tools and services that can automate complex workflows and enhance business operations."
+  "summary": "**Key Developments:**\n\n* **OpenAI's Codex 3.0**: OpenAI has launched Codex 3.0, a significant update to its AI-powered coding assistant tool, which can now build, test, and debug code on autopilot.\n* **NVIDIA Partnership**: NVIDIA and OpenAI have collaborated on the development of Codex 3.0, which will be powered by NVIDIA's infrastructure.\n* **GPT-5.5**: OpenAI's new GPT-5.5 model is being used to power Codex 3.0, with NVIDIA's infrastructure providing the necessary computing resources.\n* **ChatGPT Images 2.0**: OpenAI has launched ChatGPT Images 2.0, a state-of-the-art image generation model that enables users to create, refine, and validate visuals in one flow.\n* **OpenAI Privacy Filter**: OpenAI has introduced the OpenAI Privacy Filter, an open-weight model that detects and redacts personally identifiable information (PII) in text with state-of-the-art accuracy.\n\n**Trend:**\n\n* **Rise of Agentic AI**: The recent announcements from OpenAI and NVIDIA suggest a growing trend towards agentic AI, which enables AI agents to automate complex workflows, connect tools, and streamline team operations. This trend is likely to continue, with a focus on enterprise adoption and scaling."
 }
