@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-27T05:20:03.233Z",
+  "timestamp": "2026-04-28T00:18:03.215Z",
   "categories": {
     "news": {
-      "count": 21,
+      "count": 19,
       "items": [
+        {
+          "subject": "The next phase of the Microsoft OpenAI partnership",
+          "body": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+          "timestamp": "2026-04-27T14:00:02",
+          "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: Codex 3.0 by OpenAI",
           "body": "Codex can now build, test & debug on autopilot",
@@ -78,15 +87,6 @@
           }
         },
         {
-          "subject": "Speeding up agentic workflows with WebSockets in the Responses API",
-          "body": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "Introducing ChatGPT Images 2.0",
           "body": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
           "timestamp": "2026-04-23T04:00:01",
@@ -100,6 +100,15 @@
           "body": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
           "timestamp": "2026-04-23T04:00:01",
           "url": "https://openai.com/index/introducing-openai-privacy-filter",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Speeding up agentic workflows with WebSockets in the Responses API",
+          "body": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+          "timestamp": "2026-04-23T04:00:01",
+          "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -166,33 +175,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "OpenAI helps Hyatt advance AI among colleagues",
-          "body": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
-          "timestamp": "2026-04-20T14:00:02",
-          "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
-          "body": "Manufacturing is at an inflection point. Across every major industrial economy, the...",
-          "timestamp": "2026-04-20T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
-          "body": "AI agents are transforming how work gets done across all industries, accelerating...",
-          "timestamp": "2026-04-20T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -212,5 +194,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**4-6 Key Developments:**\n\n* **Codex 3.0 Launch:** OpenAI has launched Codex 3.0, a significant upgrade to its previous version, which enables users to build, test, and debug on autopilot. Codex is a powerful tool for automating tasks, connecting tools, and producing real outputs like documents and dashboards.\n* **GPT-5.5 Integration:** OpenAI's new GPT-5.5 model has been powering Codex on NVIDIA infrastructure, enabling more efficient and accurate automation capabilities.\n* **ChatGPT Images 2.0:** OpenAI has introduced ChatGPT Images 2.0, an image generation model with a built-in thinking layer, enabling users to create, refine, and validate visuals in one flow. This model supports flexible aspect ratios and multiple outputs per prompt.\n* **Workspace Agents:** OpenAI has launched workspace agents in ChatGPT, allowing users to automate complex workflows, run in the cloud, and help teams scale work across tools securely.\n* **Scaling Codex:** OpenAI has launched Codex Transformation Partners, a program with leading consulting firms to help enterprises deploy and scale Codex across the software development lifecycle.\n\n**Trend:**\n\n* **Rise of Agentic AI:** The increasing focus on agentic AI, which enables machines to perform tasks and make decisions on their own, is becoming a major trend in the industry. With the launch of Codex 3.0, Workspace Agents, and ChatGPT Images 2.0, it's clear that OpenAI is pushing the boundaries of agentic AI, enabling users to automate complex tasks, connect tools, and streamline workflows. This trend is expected to continue in the coming months, with more AI models and tools being developed to support agentic capabilities."
+  "summary": "**Key Developments:**\n\n* **Microsoft-OpenAI Partnership Update**: OpenAI and Microsoft have updated their partnership agreement, simplifying the partnership and providing long-term clarity for AI innovation at scale.\n* **Codex 3.0 Launch**: OpenAI has released Codex 3.0, an AI-powered tool that automates tasks, connects tools, and produces real outputs like documents and dashboards.\n* **ChatGPT Images 2.0**: OpenAI has introduced ChatGPT Images 2.0, a state-of-the-art image generation model that features improved text rendering, multilingual support, and advanced visual reasoning.\n* **Technology Adoption**: NVIDIA and Google Cloud have collaborated to advance agentic and physical AI, and NVIDIA is using OpenAI's GPT-5.5 to power Codex on their infrastructure.\n* **Partnerships for Enterprise Adoption**: OpenAI has launched Codex Transformation Partners, a program aimed at helping enterprises deploy and scale Codex across the software development lifecycle.\n\n**Trend:** The trend is a shift towards **Enterprise Adoption** of AI-powered tools and technologies. With the update to their partnership agreement and the launch of Codex Transformation Partners, OpenAI is prioritizing the deployment and scaling of its AI solutions to meet the needs of larger organizations. This reflects a broader trend in the industry towards more practical and business-ready AI applications."
 }
